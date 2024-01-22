@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\cated\Documents\wow code\pictures\gadgetmatch-asus-rog-20180513.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <h1>TechIT</h1>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Accesories.html">Accessories</a></li>
+                <li><a href="desktop.html">Desktop</a></li>
+                <li><a href="laptop.html">Laptop</a></li>
+        </ul>
+        </nav>
+        <a href="cart.html"><img src="c:\Users\cated\Documents\wow code\pictures\shopping-cart-logo-icon-shopping-cart-removebg-preview.png" width="30px" height="30px"></a>        
+        <img src="c:\Users\cated\Documents\wow code\pictures\menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-----single product :C-->
+
+<div class="small-contrainer">
+  <div class="row">
+    <div class="col-2">
+      <img src="c:\Users\cated\Documents\sam folder\code\website\website\pictures\6473613_sd-removebg-preview.png" width="70%" style="transform: translate(70px);">
+    </div>
+    <div class="col-2">
+      <p>Desktop</p>
+      <h1>CLX Set TGMSETRTH1658BM Gaming Desktop</h1>
+      <h4>$749.00</h4>
+      <a href="" class="btn">Add To Cart</a>
+      <h3>Product Details</h3>
+      <p>Intel Core i9-13900KF - 64GB Memory - NVIDIA GeForce RTX 4070 - 2TB NVMe M.2 SSD + 6TB HDD - Black
+        </p>
+    </div>
+  </div>
+</div>
+
+
+<!-------- featured categories -------->
+<div class="categories">
+
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <a href="CLXSetGamingPC.html">
+        <img src="pictures/6544421_sd-removebg-preview.png">
+        <p class="price"><strong>CLX Set Gaming PC</strong><br>$3,199.99</p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="Playerone.html">
+        <img src="pictures/1697774402-player-one-base-ww-10-05-23-hero-white-badge.png">
+        <p class="price"><strong>Player One</strong><br>$749.00</p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="TGMS.html">
+        <img src="pictures/6473613_sd-removebg-preview.png">
+        <p class="price"><strong>CLX Set TGMSETRTH1658BM Gaming Desktop</strong><br>$5,826.94</p>
+      </a>
+      </div>
+    </div>
+  </div>
+
+<!-------- footer -------->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3> Follow our socials!</h3>
+        <p>We post daily updates about new accessories!</p>
+      </div>
+      <div class="footer-col-3">
+        <h3> Follow us!</h3>
+        <ul>
+          <li>Facebook - TechIT</li>
+          <li>X(Twitter) - @TechIT</li>
+          <li>Instagram - </li>
+          <li>LinkdIn</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - TechIT</p>
+  </div>
+</div>
+<!----------js for toggle menu------------>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.Style.maxHeight = "0px";
+  
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+      else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>
